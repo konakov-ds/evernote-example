@@ -1,7 +1,7 @@
 # evernote-example
 
 ## Получение доступов
-- Сначала получите [Consumer Key, Consumer Secret](https://dev.evernote.com/doc/start/python.php#).
+- Сначала получите [Consumer Key, Consumer Secret](https://dev.evernote.com/doc/start/python.php#),
 укажите `Full access`.
 - После получения этих ключей, нужно получить [access token](https://dev.evernote.com/get-token/).
 
@@ -18,7 +18,7 @@
   EVERNOTE_PERSONAL_TOKEN=S=токен доступа к апи
   JOURNAL_TEMPLATE_NOTE_GUID=шаблон guid заметки
   JOURNAL_NOTEBOOK_GUID=guid notebook
-  INBOX_NOTEBOOK_GUID=входяший guid notebook
+  INBOX_NOTEBOOK_GUID=входящий guid notebook
   ```
 - Установить evernote-sdk для python3.
    
